@@ -18,6 +18,6 @@ public class Tecla : MonoBehaviour
 
     void OnMouseDown()
     {
-        GetComponent<AudioSource>.()Play();
+        GetComponent<AudioSource>().Play();
     }
 }
